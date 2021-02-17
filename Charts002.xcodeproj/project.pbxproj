@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,32 @@
 		AAA983DF25D08F400048781B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA983DD25D08F400048781B /* Main.storyboard */; };
 		AAA983E125D08F410048781B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA983E025D08F410048781B /* Assets.xcassets */; };
 		AAA983E425D08F410048781B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA983E225D08F410048781B /* LaunchScreen.storyboard */; };
+		AAA9844525D119F70048781B /* Highcharts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9844325D119F30048781B /* Highcharts.xcframework */; };
+		AAA9844625D119F70048781B /* Highcharts.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9844325D119F30048781B /* Highcharts.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAA984B625DCF45C0048781B /* Chart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA984B525DCF45C0048781B /* Chart1ViewController.swift */; };
+		AAA984B825DCF6190048781B /* Chart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA984B725DCF6190048781B /* Chart2ViewController.swift */; };
+		AAA984BA25DCF6A00048781B /* Chart3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA984B925DCF6A00048781B /* Chart3ViewController.swift */; };
+		AAA984BC25DCF7D30048781B /* Chart4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA984BB25DCF7D30048781B /* Chart4ViewController.swift */; };
+		AAA984BE25DCF7E20048781B /* Chart5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA984BD25DCF7E20048781B /* Chart5ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AAA983F225D0936B0048781B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AAA9844625D119F70048781B /* Highcharts.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00DE4EC17CE06B884B894792 /* Pods-Charts002.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts002.release.xcconfig"; path = "Target Support Files/Pods-Charts002/Pods-Charts002.release.xcconfig"; sourceTree = "<group>"; };
+		7ED25F5EC1733E652C144B72 /* Pods-Charts002.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts002.debug.xcconfig"; path = "Target Support Files/Pods-Charts002/Pods-Charts002.debug.xcconfig"; sourceTree = "<group>"; };
 		AAA983D425D08F400048781B /* Charts002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charts002.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA983D725D08F400048781B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA983D925D08F400048781B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,12 @@
 		AAA983E025D08F410048781B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA983E325D08F410048781B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA983E525D08F410048781B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA9844325D119F30048781B /* Highcharts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Highcharts.xcframework; sourceTree = "<group>"; };
+		AAA984B525DCF45C0048781B /* Chart1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart1ViewController.swift; sourceTree = "<group>"; };
+		AAA984B725DCF6190048781B /* Chart2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2ViewController.swift; sourceTree = "<group>"; };
+		AAA984B925DCF6A00048781B /* Chart3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart3ViewController.swift; sourceTree = "<group>"; };
+		AAA984BB25DCF7D30048781B /* Chart4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart4ViewController.swift; sourceTree = "<group>"; };
+		AAA984BD25DCF7E20048781B /* Chart5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA9844525D119F70048781B /* Highcharts.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +70,10 @@
 		AAA983CB25D08F400048781B = {
 			isa = PBXGroup;
 			children = (
+				AAA9844225D119F30048781B /* Framework */,
 				AAA983D625D08F400048781B /* Charts002 */,
 				AAA983D525D08F400048781B /* Products */,
+				D44EE9FEC6D5D1173A7F7BED /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +91,34 @@
 				AAA983D725D08F400048781B /* AppDelegate.swift */,
 				AAA983D925D08F400048781B /* SceneDelegate.swift */,
 				AAA983DB25D08F400048781B /* ViewController.swift */,
+				AAA984B725DCF6190048781B /* Chart2ViewController.swift */,
+				AAA984B925DCF6A00048781B /* Chart3ViewController.swift */,
+				AAA984BB25DCF7D30048781B /* Chart4ViewController.swift */,
+				AAA984BD25DCF7E20048781B /* Chart5ViewController.swift */,
+				AAA984B525DCF45C0048781B /* Chart1ViewController.swift */,
 				AAA983DD25D08F400048781B /* Main.storyboard */,
 				AAA983E025D08F410048781B /* Assets.xcassets */,
 				AAA983E225D08F410048781B /* LaunchScreen.storyboard */,
 				AAA983E525D08F410048781B /* Info.plist */,
 			);
 			path = Charts002;
+			sourceTree = "<group>";
+		};
+		AAA9844225D119F30048781B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9844325D119F30048781B /* Highcharts.xcframework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		D44EE9FEC6D5D1173A7F7BED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED25F5EC1733E652C144B72 /* Pods-Charts002.debug.xcconfig */,
+				00DE4EC17CE06B884B894792 /* Pods-Charts002.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +128,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA983E825D08F410048781B /* Build configuration list for PBXNativeTarget "Charts002" */;
 			buildPhases = (
+				A178C3F6BE691CF7B384FBF2 /* [CP] Check Pods Manifest.lock */,
 				AAA983D025D08F400048781B /* Sources */,
 				AAA983D125D08F400048781B /* Frameworks */,
 				AAA983D225D08F400048781B /* Resources */,
+				AAA983F225D0936B0048781B /* Embed Frameworks */,
+				FA3925FFDCFEE243C03DA986 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Charts002;
+			packageProductDependencies = (
+			);
 			productName = Charts002;
 			productReference = AAA983D425D08F400048781B /* Charts002.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +169,9 @@
 				Base,
 			);
 			mainGroup = AAA983CB25D08F400048781B;
+			packageReferences = (
+				AAA9843425D1180C0048781B /* XCRemoteSwiftPackageReference "highcharts-ios" */,
+			);
 			productRefGroup = AAA983D525D08F400048781B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +194,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A178C3F6BE691CF7B384FBF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Charts002-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3925FFDCFEE243C03DA986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Charts002/Pods-Charts002-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Charts002/Pods-Charts002-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Charts002/Pods-Charts002-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAA983D025D08F400048781B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +244,11 @@
 				AAA983DC25D08F400048781B /* ViewController.swift in Sources */,
 				AAA983D825D08F400048781B /* AppDelegate.swift in Sources */,
 				AAA983DA25D08F400048781B /* SceneDelegate.swift in Sources */,
+				AAA984BE25DCF7E20048781B /* Chart5ViewController.swift in Sources */,
+				AAA984BC25DCF7D30048781B /* Chart4ViewController.swift in Sources */,
+				AAA984BA25DCF6A00048781B /* Chart3ViewController.swift in Sources */,
+				AAA984B625DCF45C0048781B /* Chart1ViewController.swift in Sources */,
+				AAA984B825DCF6190048781B /* Chart2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +392,7 @@
 		};
 		AAA983E925D08F410048781B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED25F5EC1733E652C144B72 /* Pods-Charts002.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +412,7 @@
 		};
 		AAA983EA25D08F410048781B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DE4EC17CE06B884B894792 /* Pods-Charts002.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +452,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAA9843425D1180C0048781B /* XCRemoteSwiftPackageReference "highcharts-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/highcharts/highcharts-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = AAA983CC25D08F400048781B /* Project object */;
 }
